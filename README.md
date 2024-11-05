@@ -1,8 +1,6 @@
 # Sri Lanka Cricket Data Analysis
 
-This project focuses on extracting, transforming, and visualizing cricket data related to Sri Lanka. The final dataset will be visualized in Tableau to provide insights into Sri Lankan cricket performance, including player stats, match outcomes, and detailed ball-by-ball analysis.
-
-This project aims to analyze Sri Lankan cricket data by downloading, processing, and visualizing the data using AWS services. 
+This project focuses on extracting, transforming, and visualizing cricket data related to Sri Lanka. The final dataset will be visualized in Tableau to provide insights into Sri Lankan cricket performance, including player stats, match outcomes, and detailed ball-by-ball analysis using AWS services. 
 
 ## Project Overview
 
@@ -10,10 +8,13 @@ This project collects and processes cricket data specifically related to Sri Lan
 
 ## Getting Started
 
-### Prerequisites
+<!-- ### Prerequisites
 - **AWS Account**: Needed to create Lambda and S3 services.
 - **AWS CLI**: Configure AWS CLI on your local machine for managing AWS resources.
-- **Python 3.8+**: For local testing and development.
+- **Python 3.8+**: For local testing and development. -->
+
+
+## Data Collection
 
 ### Steps to Run
 1. **Deploy Lambda Function**: Deploy the Lambda function to AWS Lambda and configure it with S3 permissions.
@@ -22,9 +23,6 @@ This project collects and processes cricket data specifically related to Sri Lan
 
 ## Dependencies
 - `requests` library for HTTP downloads. You can package this with the Lambda function or add it as a Lambda Layer.
-
-
-## Data Collection
 
 ### Data Sources
 - **Cricsheet**: [Cricsheet Downloads](https://cricsheet.org/downloads/)
