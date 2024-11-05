@@ -8,6 +8,22 @@ This project aims to analyze Sri Lankan cricket data by downloading, processing,
 
 This project collects and processes cricket data specifically related to Sri Lanka. Data is downloaded as JSON files and transformed into a CSV format for analysis and visualization. The AWS Lambda service is used to automate the data collection and storage in S3.
 
+## Getting Started
+
+### Prerequisites
+- **AWS Account**: Needed to create Lambda and S3 services.
+- **AWS CLI**: Configure AWS CLI on your local machine for managing AWS resources.
+- **Python 3.8+**: For local testing and development.
+
+### Steps to Run
+1. **Deploy Lambda Function**: Deploy the Lambda function to AWS Lambda and configure it with S3 permissions.
+2. **Configure S3 Bucket**: Make sure the bucket `sl-cricket-data` exists in your AWS account.
+3. **Test the Lambda Function**: Trigger the function and verify that the ZIP file is uploaded to S3.
+
+## Dependencies
+- `requests` library for HTTP downloads. You can package this with the Lambda function or add it as a Lambda Layer.
+
+
 ## Data Collection
 
 ### Data Sources
